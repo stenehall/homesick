@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Joshua Nichols".freeze, "Yusuke Murata".freeze]
-  s.date = "2017-12-20"
+  s.date = "2018-02-22"
   s.description = "\n    Your home directory is your castle. Don't leave your dotfiles behind.\n    \n\n    Homesick is sorta like rip, but for dotfiles. It uses git to clone a repository containing dotfiles, and saves them in ~/.homesick. It then allows you to symlink all the dotfiles into place with a single command. \n\n  ".freeze
   s.email = ["josh@technicalpickles.com".freeze, "info@muratayusuke.com".freeze]
   s.executables = ["homesick".freeze]
@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/technicalpickles/homesick".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.6.11".freeze
+  s.rubygems_version = "2.7.4".freeze
   s.summary = "Your home directory is your castle. Don't leave your dotfiles behind.".freeze
 
   if s.respond_to? :specification_version then

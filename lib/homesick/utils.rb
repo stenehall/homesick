@@ -27,7 +27,7 @@ module Homesick
     end
 
     def repos_dir
-      @repos_dir ||= home_dir.join('.homesick', 'repos').expand_path
+      @repos_dir ||= ENV['HOMESICK'] ? Pathname.new(ENV['HOMESICK']).join('repos').expand_path : home_dir.join('.homesick', 'repos').expand_path
     end
 
     def castle_dir(name)
